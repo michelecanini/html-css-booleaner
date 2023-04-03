@@ -2,9 +2,13 @@
 
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .container{
+    width: 55%;
  }
 
  /*impostazioni header e logo*/
@@ -66,13 +70,18 @@ div.logo{
     font-size:12px;
  }
 
-/*impostazioni articoli*/
+/*impostazioni paragrafo*/
 
- article{
+ p{
     margin: 10px;
     font-size: 17px;
  }
 
  .Highlighted-Text{
     background-color: yellow;
+ }
+
+ ul{
+    margin: 30px;
+    font-size: 17px;
  }
