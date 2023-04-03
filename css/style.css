@@ -1,0 +1,22 @@
+/*impostazioni generali*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ /*impostazioni header*/
+
+ div > img{
+    height: 100%;
+    width: 480px;
+    margin: 20px;
+
+}
+
+ div{
+    height: 210px;
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff
+ }
