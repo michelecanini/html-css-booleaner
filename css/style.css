@@ -1,132 +1,140 @@
 /*impostazioni generali*/
 
 *{
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
- }
+   padding: 0;
+   margin: 0 auto;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
 
- .container{
-    width: 1080px;
- }
+.container{
+width: 1080px;
+}
 
  /*impostazioni header e logo*/
 
 div.logo > img{
-    height: 100%;
-    width: 200px;
-    margin: 10px;
+   height: 100%;
+   width: 200px;
+   margin: 10px;
 }
 
 div.logo{
-    height: 110px;
-    background-image: url(../img/pattern.png);
-    background-color: #4ea0ff
- }
+   height: 110px;
+   background-size: 40%;
+   background-image: url(../img/pattern.png);
+   background-color: #4ea0ff
+   
+}
 
  /*impostazioni titolo e sottotitoli*/
 
 .title-article{
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-top: 10px;
-    ;
- }
+   font-size: 40px;
+   font-weight: bold;
+   margin-left: 10px;
+   margin-top: 10px;
+   ;
+}
 
- .sub-title{
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 50px;
-    color: grey;
- }
+.sub-title{
+   font-size: 20px;
+   margin-left: 10px;
+   margin-top: 50px;
+   color: grey;
+}
 
- a{
-    font-size: 20px;
-    margin-top: 50px;
-    text-decoration: none;
-    color: #30afe6;
-    font-weight: bold;
- }
+a{
+   font-size: 20px;
+   margin-top: 50px;
+   text-decoration: none;
+   color: #30afe6;
+   font-weight: bold;
+}
 
- /*impostazioni data articolo*/
+/*impostazioni data articolo*/
 
- .sub-title-date{
-    font-size: 12px;
-    margin-left: 10px;
-    margin-top: 50px;
-    color: grey;
- }
+.sub-title-date{
+   font-size: 12px;
+   margin-left: 10px;
+   margin-top: 50px;
+   color: grey;
+}
 
- /*impostazioni immagini tim*/
+/*impostazioni immagini tim*/
 
- .image-tim{
-    height: 100%;
-    margin: 10px;
- }
+.image-tim{
+   height: 100%;
+   margin: 10px;
+}
 
- figcaption{
-    font-size:12px;
- }
+figcaption{
+   font-size:12px;
+}
 
 /*impostazioni paragrafo*/
 
- p{
-    margin: 10px;
-    font-size: 17px;
- }
+p{
+   margin: 10px;
+   font-size: 17px;
+}
 
- .Highlighted-Text{
-    background-color: yellow;
- }
+.highlighted-text{
+   background-color: yellow;
+}
 
- ul{
-    margin: 30px;
-    font-size: 17px;
- }
+/*impostazioni tabella e lista*/
 
- table{
-    width: 100%;
-    margin: 10px;
-    border-collapse: collapse;
+ul{
+   margin: 30px;
+   font-size: 17px;
+}
+
+table{
+   width: 100%;
+   margin: 10px;
+   border-collapse: collapse;
 }
 
 tr{
-    text-align: left;
+   text-align: left;
 }
 
-th.venticinque{
+th.cell-header{
     width: 25%;
 }
 
-#intestazione{
-    color: white;
-    background-color: #20a9e5;
+.table-header{
+   color: white;
+   background-color: #20a9e5;
 }
 
-.caselle-celesti{
-    background-color: #b1e5f2;
+.colored-cells{
+   background-color: #b1e5f2;
 }
 
-.interessi{
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 50px;
-    color: grey;
-    font-weight: bold;
+/*impostazioni footer*/
+
+.footer-title{
+   font-size: 20px;
+   margin-left: 10px;
+   margin-top: 50px;
+   color: grey;
+   font-weight: bold;
 }
 
-div.testoimmagine{
-    height: 212px;
-    background-repeat: no-repeat;
-    position: relative;
+div.container-image{
+   height: 212px;
+   background-repeat: no-repeat;
+   position: relative;
+   margin-top: 20px;
+   margin-left: 10px;
 }
 
-span.relativo{
-    font-size: 25px;
-    margin: 10px;
-    color: white;
-    font-weight: bold;
-    position: absolute;
+span.text-image{
+   font-size: 25px;
+   margin: 10px;
+   color: white;
+   font-weight: bold;
+   position: absolute;
 }
